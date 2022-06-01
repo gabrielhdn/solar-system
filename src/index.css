@@ -128,4 +128,38 @@ footer {
   color: #283D48;
 }
 
- @keyframes text-focus-in {0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}}
+@keyframes text-focus-in {0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}}
+
+@media screen and (max-width: 900px) {
+  body {
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .title-img {
+    width: 9em;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  header {
+    font-size: .8em;
+    flex-direction: column;
+    margin: 5 auto;
+    margin-bottom: 20px;
+  }
+
+  .planets {
+    margin: 20px auto;
+  }
+
+  .headline {
+    margin: 10px auto;
+  }
+
+  .missions {
+    padding: 27px 20px;
+    width: 90%;
+  }
+}
