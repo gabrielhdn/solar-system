@@ -130,15 +130,9 @@ footer {
 
 @keyframes text-focus-in {0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}}
 
-@media screen and (max-width: 900px) {
-  body {
-    background-size: cover;
-  }
-}
-
 @media screen and (max-width: 570px) {
   .title-img {
-    width: 9em;
+    width: 10em;
   }
 }
 
